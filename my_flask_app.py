@@ -1,18 +1,22 @@
-from flask import Flask
+print("this is my python file")
+print("you are using python from jenkins to build ")
 
 
-app = Flask(__name__)
+# from flask import Flask
 
 
-@app.route("/")
-def main():
-    return "this is my app"
+# app = Flask(__name__)
 
 
-@app.route("/<ent>")
-def main1(ent):
-    return f" you entered input : {ent}"
+# @app.route("/")
+# def main():
+#     return "this is my app"
 
 
-if __name__ == "__main__":
-    app.run()
+# @app.route("/<ent>")
+# def main1(ent):
+#     return f" you entered input : {ent}"
+
+
+# if __name__ == "__main__":
+#     app.run()
