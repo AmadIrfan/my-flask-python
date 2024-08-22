@@ -1,6 +1,6 @@
 print("this is my python file")
 print("you are using python from jenkins to build ")
-prin('this is update of v2')
+print('this is update of v2')
 
 # from flask import Flask
 
